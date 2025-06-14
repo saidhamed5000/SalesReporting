@@ -20,18 +20,6 @@ The project showcases end-to-end steps:
 
 ---
 
-## 📂 Project Structure
-
-| Folder | Content |
-| ------ | ------- |
-| `SQL_Scripts/` | Full SQL scripts for table creation, data loading, transformations, KPIs, Views, Procedures, and Security setup |
-| `PowerBI_File/` | Power BI report file (.pbix) |
-| `Documentation/` | Project documentation files |
-| `Sample_Data/` | Sample CSV files used for initial data import |
-| `Screenshots/` | Dashboard screenshots |
-
----
-
 ## ⚙️ Technologies Used
 
 - Microsoft SQL Server
