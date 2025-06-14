@@ -1,52 +1,120 @@
-# SalesReporting
-# Sales Reporting and Profitability Analysis Project
+🚀 **End-to-End Business Intelligence & Data Analytics Project | SQL Server + Power BI Integration** 📊![image](https://github.com/user-attachments/assets/4cf7be06-3e70-4115-bbd5-581abe99539a)
 
-## 🚀 Project Summary
 
-This project demonstrates a full end-to-end Sales Data Analysis Pipeline using:
+# 📊 Sales Reporting and Profitability Analysis Project
 
-- Microsoft SQL Server
-- Power BI Desktop & Power BI Service
-- Row-Level Security (RLS)
-- Advanced SQL Queries, Views & Stored Procedures
+## 📝 Project Overview
 
-## 📊 Key Business Goals
+This project simulates a full professional BI solution for Sales Reporting using:
 
-- Analyze total sales, profitability, and performance across regions, stores, products, and customers.
-- Build dynamic KPIs for business monitoring.
-- Implement monthly and yearly trends analysis.
-- Build secure data access layers using RLS.
+- **SQL Server** (for data storage, transformation, and modeling)
+- **Power BI Desktop** (for data visualization)
+- **Power BI Service** (for publishing and user access control)
 
-## 🛠 Tech Stack
+The project showcases end-to-end steps:
+- Data import from CSV to SQL Server
+- Data cleansing, preparation, and modeling with Views, Stored Procedures, and KPIs
+- Building an advanced Power BI dashboard
+- Applying Row-Level Security (RLS) for user-level access control
+- Publishing to Power BI Service
 
-- SQL Server 2022
-- Power BI Desktop
-- Power BI Service
-- T-SQL
-- CSV Data Files
+---
 
 ## 📂 Project Structure
 
-- **SQL_Scripts** : Contains all database creation, data import, data cleaning, views, procedures and security configurations.
-- **PowerBI_Files** : Power BI dashboard file.
-- **Data_Samples** : Sample data description.
-- **Documentation** : Full detailed documentation of the project.
+| Folder | Content |
+| ------ | ------- |
+| `SQL_Scripts/` | Full SQL scripts for table creation, data loading, transformations, KPIs, Views, Procedures, and Security setup |
+| `PowerBI_File/` | Power BI report file (.pbix) |
+| `Documentation/` | Project documentation files |
+| `Sample_Data/` | Sample CSV files used for initial data import |
+| `Screenshots/` | Dashboard screenshots |
 
-## 🔐 Security Layer
+---
 
-Row-Level Security was implemented to allow controlled access for different users based on their region and role.
+## ⚙️ Technologies Used
 
-## 📈 Business KPIs
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- Power BI Desktop
+- Power BI Service
+- Power Query
+- DAX (Data Analysis Expressions)
+
+---
+
+## 🚀 Project Flow
+
+1️⃣ **Data Import**
+
+- Raw CSV files (Transactions 1997, Transactions 1998)
+- Imported to SQL Server using `BULK INSERT` and staging tables.
+
+2️⃣ **Data Modeling**
+
+- Database: `SalesReporting`
+- Tables: `All_Transactions`, `Product Data`, `Customer Data`, `Store Data`, `Region Data`, etc.
+- Views: Analytical Views for Sales, Customers, Products, and Stores.
+- Stored Procedures: Profitability Analysis, Period Analysis.
+- KPIs: Business Metrics and Performance Indicators.
+
+3️⃣ **Power BI Connection**
+
+- DirectQuery/Import from SQL Server
+- Built multiple pages dashboard (Profitability, Customer Segmentation, Sales Trend, Store Performance, Product Analysis)
+
+4️⃣ **Security Layer**
+
+- Row-Level Security (RLS) using Security Table `Clean Data.User_Security`
+- Roles: Manager, Analyst, Viewer
+
+5️⃣ **Deployment**
+
+- Published to Power BI Service Workspace
+- Created Power BI App for end users
+- Applied permissions and monitoring
+
+---
+
+## 🔐 Row-Level Security (RLS)
+
+| Role | Access Control |
+| ---- | -------------- |
+| **Regional Manager** | Can see only their assigned region |
+| **Analyst** | Can access all data except sensitive KPIs |
+| **Viewer** | Can only read allowed pages, no export |
+
+---
+
+## 🧮 KPIs Included
 
 - Total Revenue
 - Total Profit
 - Profit Margin %
-- Total Transactions
-- Customer & Store Analytics
-- Monthly & Yearly Trends
+- Top Customers
+- Top Products
+- Store Performance
+- Customer Segmentation by Gender, Marital Status, Education, and Family
 
-## 💡 Notes
+---
 
-All data in this project is simulated for demonstration purposes.
+## 📈 Benefits Demonstrated
+
+✅ Full Data Pipeline Development  
+✅ Advanced SQL Queries and Optimization  
+✅ Clean Data Modeling Best Practices  
+✅ Analytical Thinking and KPI Design  
+✅ End-to-End BI Architecture  
+✅ Row-Level Security Implementation  
+✅ Enterprise Level Deployment Workflow
+
+---
+
+## 📩 Contact
+
+Project Developed by:  
+**Said Hamed**  
+[[LinkedIn Profile]
+http://www.linkedin.com/in/said-hamed-39a541291
 
 ---
